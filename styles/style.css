@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Container of squares */
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 730px;
+    height: 730px;
+    margin: 0 auto;
+}
+
+/* Square Element */
+.squares {
+    border: 1px solid #252a34;
+    background-color: #08d9d6;
+}
+
+.squares:hover {
+    background-color: #ff2e63;
+    cursor: pointer;
+}
+
+/* Button */
+#GridBtn {
+    display: block;
+    margin: 2.5vh auto;
+    padding: 1em;
+    font-weight: bold;
+}
